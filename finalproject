@@ -79,7 +79,6 @@
         alert("Please fill in all fields.");
       }
     });
-
     // Handle delete button click
     $("#tableBody").on("click", ".deleteBtn", function () {
       $(this).closest("tr").remove();
